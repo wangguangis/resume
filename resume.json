@@ -82,9 +82,9 @@
   },{
     "type": "project",
     "techtype": "frontend",
-    "name": "约否活动信息平台",
+    "name": "约否活动信息平台（正在制作）",
     "description": [
-      "前端使用Angular.js，后台使用Python的Web客户端",
+      "前端使用Angular.js的Web客户端",
       "用户可以发布活动、参与活动、分享活动"
     ],
     "stack": ["AngularJS", "bootstrap", "jquery", "django", "Centos"],
@@ -97,7 +97,29 @@
       "使用node.js和socket.io创建的网络聊天室",
       "使用mysql存储聊天信息，随时上下线的概念"
     ]
-    }], 
+  },{
+  	"type":"project",
+  	"techtype": "Python",
+  	"name": "搜狐军事网站爬虫",
+  	"description":[
+  		"使用python制作的爬虫，解析搜狐军事官网的html文件",
+  		"分析每条新闻中的词语出现频率并统计排行",
+  		"为每条新闻自动生成'一句话新闻'"
+  	]
+
+  	},{
+  	"type":"project",
+  	"techtype": "Java",
+  	"name": "全自动点餐系统",
+  	"description":[
+  		"使用Java Swing制作的用户界面，高效人性化",
+  		"有座位排队功能、点餐、查看点餐状态等功能"
+  	]
+
+  	}
+
+
+    ], 
   "skills": [{
     "type": "frontend",
     "item": [{
@@ -139,10 +161,15 @@
       "summary": "Python",
       "description": [
         "使用 `Django`（`Python`） 搭建过简单的web应用",
-        "使用'Flask'搭建简单的服务器",
         "了解Python3的await机制、对网络请求的异步处理",
-        "使用Python在Leetcode上进行算法编程练习"
+        "使用Python在Leetcode上进行算法编程练习"	
       ]
+    }, {
+    	"summary": "Java",
+    	"description":[
+    		"使用`Openxava`作为后台开发MIS",
+    		"使用`Vaadin`制作用户登录页面"
+    	]
     }, {
       "summary": "System",
       "description": [
@@ -156,8 +183,7 @@
     "item": [
      "擅于使用`Photoshop`处理图片达到自己想要的效果",
      "使用XAML在VS2015开发`UWP`APP程序",
-      "能够使用 `Markdown` 编写得体的中英文文档或论文，具备良好的技术交流能力",
-      "能够使用 `Photoshop` / `Illustrator` 完成简单的设计"
+      "能够使用 `Markdown` 编写得体的中英文文档或论文，具备良好的技术交流能力"
     ]
   }]
 }
