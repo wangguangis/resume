@@ -1,5 +1,5 @@
 {
-  "name": "joyee-resume",
+  "name": "leoeatle-resume",
   "version": "1.0.0",
   "description": "Read resume data from a JSON file and generate a static web page.",
   "main": "gulpfile.js",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/joyeecheung/resume.git"
+    "url": "git://github.com/LeoEatle/resume.git"
   },
   "dependencies": {
     "gulp": "^3.9.1"
@@ -28,9 +28,9 @@
     "jade": "^1.10.0"
   },
   "bugs": {
-    "url": "https://github.com/joyeecheung/resume/issues"
+    "url": "https://github.com/LeoEatle/resume/issues"
   },
-  "homepage": "https://github.com/joyeecheung/resume",
+  "homepage": "https://github.com/LeoEatle/resume",
   "keywords": [
     "resume"
   ]

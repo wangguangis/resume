@@ -74,52 +74,65 @@
     "name": "前端实习",
     "description": [
       "帮助切图、javascript等工作",
-      "用ActionScript在页面上添加Flash脚本",
-      "使用公司开发的一套快速构建页面系统（php）进行宣传页面的开发"
+      "用`ActionScript`在页面上添加Flash脚本",
+      "学习`Linux`系统的命令操作，熟悉代码部署"
     ],
     "stack": ["jqueryui", "bootstrap", "jquery", "jquery-mobile", "actionscript"],
     "compatibility": "IE8+"
   },{
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "上海银联",
+    "start": "2016.08",
+    "end": "未完待续",
+    "name": "钱包团队前端工程师",
+    "description": [
+      "使用`React.js`完成银联钱包的`SPA`，完成与客户端相同的功能实现",
+      "使用`React Route`实现hash route",
+      "重构[秒杀]活动页面，由`Sea.js`转为`React.js`"
+    ],
+    "stack": ["React.js", "Redux","Gulp", "Webpack", "node.js", "Babel"],
+    "compatibility": "IE8+"
+  },{
     "type": "project",
     "techtype": "frontend",
-    "name": "约否活动信息平台（正在制作）",
+    "name": "约否活动信息平台",
     "description": [
-      "前端使用Angular.js的Web客户端",
+      "前端使用`Angular.js`的Web客户端",
+      "后台使用`Python Flask`框架",
       "用户可以发布活动、参与活动、分享活动"
     ],
     "stack": ["AngularJS", "bootstrap", "jquery", "django", "Centos"],
+    "compatibility": "IE8+"
+  },{
+    "type": "project",
+    "techtype": "frontend",
+    "name": "94一站（技能售卖平台）",
+    "description": [
+      "使用`React`, `Gulp`, `Babel`, `Browserify`, `Less`技术栈",
+      "类似淘宝闲鱼的售卖平台，需要推荐组件，购买页面组件，用户中心组件等构建"
+    ],
+    "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
     "compatibility": "IE8+"
   },{
     "type":"project",
     "techtype": "frontend",
     "name": "Dollars",
     "description":[
-      "使用node.js和socket.io创建的网络聊天室",
-      "使用mysql存储聊天信息，随时上下线的概念"
+      "使用`node.js`和`socket.io`创建的网络聊天室",
+      "使用`mysql`存储聊天信息，随时上下线的概念"
     ]
   },{
   	"type":"project",
   	"techtype": "Python",
   	"name": "搜狐军事网站爬虫",
   	"description":[
-  		"使用python制作的爬虫，解析搜狐军事官网的html文件",
-  		"分析每条新闻中的词语出现频率并统计排行",
-  		"为每条新闻自动生成'一句话新闻'"
+  		"使用python的`Beautifulsoup`制作的爬虫，解析新闻文件",
+  		"分析每条新闻中的词语出现`频率`并统计排行,为每条新闻自动生成`一句话新闻`",
+      "使用`weka`分析统计数据，进行Data Mining"
   	]
-
-  	},{
-  	"type":"project",
-  	"techtype": "Java",
-  	"name": "全自动点餐系统",
-  	"description":[
-  		"使用Java Swing制作的用户界面，高效人性化",
-  		"有座位排队功能、点餐、查看点餐状态等功能"
-  	]
-
   	}
-
-
-    ], 
+  ],
   "skills": [{
     "type": "frontend",
     "item": [{
@@ -132,12 +145,13 @@
       "summary": "`ECMAScript`（`JavaScript`）",
       "description": [
         "熟悉 `ECMAScript`（`JavaScript`）",
-        "了解 `ECMAScript` 新标准与相关后处理工具并能在项目中使用"
+        "了解 `ES6` 新标准与相关后处理工具并能在项目中使用"
       ]
     }, {
       "summary": "`DOM` / `BOM` 及常见 `Web API`",
       "description": [
-        "熟悉原生 `DOM` ,有相关移动端/桌面端开发经验"
+        "熟悉原生 `DOM` ,有相关移动端/桌面端开发经验",
+        "了解浏览器DOM树的构建，了解浏览器缓存机制"
       ]
     }, {
       "summary": "前端工程实践",
@@ -162,7 +176,7 @@
       "description": [
         "使用 `Django`（`Python`） 搭建过简单的web应用",
         "了解Python3的await机制、对网络请求的异步处理",
-        "使用Python在Leetcode上进行算法编程练习"	
+        "使用Python在Leetcode上进行算法编程练习"
       ]
     }, {
     	"summary": "Java",
@@ -181,8 +195,7 @@
   }, {
     "type": "miscellaneous",
     "item": [
-     "擅于使用`Photoshop`处理图片达到自己想要的效果",
-     "使用XAML在VS2015开发`UWP`APP程序",
+      "使用XAML在VS2015开发`UWP`APP程序",
       "能够使用 `Markdown` 编写得体的中英文文档或论文，具备良好的技术交流能力"
     ]
   }]
