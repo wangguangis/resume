@@ -106,10 +106,10 @@
   },{
     "type":"project",
     "techtype": "frontend",
-    "name": "Dollars",
+    "name": "约否活动信息发布平台",
     "description":[
-      "使用`node.js`和`socket.io`创建的网络聊天室",
-      "使用`mysql`存储聊天信息，随时上下线的概念"
+      "使用`Angular.js`构建的前端页面，后台使用`Python Flask`进行数据库`ORM`操作",
+      "使用`node.js`和`socket.io`创建的网络聊天室"
     ]
   },{
     "type":"project",
