@@ -68,20 +68,6 @@
   "experience": [{
     "type": "internship",
     "techtype": "frontend",
-    "place": "蓝海网络公司",
-    "start": "2016.01",
-    "end": "2016.02",
-    "name": "前端实习",
-    "description": [
-      "帮助切图、javascript等工作",
-      "用`ActionScript`在页面上添加Flash脚本",
-      "学习`Linux`系统的命令操作，熟悉代码部署"
-    ],
-    "stack": ["jqueryui", "bootstrap", "jquery", "jquery-mobile", "actionscript"],
-    "compatibility": "IE8+"
-  },{
-    "type": "internship",
-    "techtype": "frontend",
     "place": "上海银联",
     "start": "2016.08",
     "end": "未完待续",
@@ -94,15 +80,18 @@
     "stack": ["React.js", "Redux","Gulp", "Webpack", "node.js", "Babel"],
     "compatibility": "IE8+"
   },{
-    "type": "project",
+    "type": "internship",
     "techtype": "frontend",
-    "name": "约否活动信息平台",
+    "place": "蓝海网络公司",
+    "start": "2016.01",
+    "end": "2016.02",
+    "name": "前端实习",
     "description": [
-      "前端使用`Angular.js`的Web客户端",
-      "后台使用`Python Flask`框架",
-      "用户可以发布活动、参与活动、分享活动"
+      "帮助切图、javascript等工作",
+      "用`ActionScript`在页面上添加Flash脚本",
+      "学习`Linux`系统的命令操作，熟悉代码部署"
     ],
-    "stack": ["AngularJS", "bootstrap", "jquery", "django", "Centos"],
+    "stack": ["jqueryui", "bootstrap", "jquery", "jquery-mobile", "actionscript"],
     "compatibility": "IE8+"
   },{
     "type": "project",
@@ -121,6 +110,14 @@
     "description":[
       "使用`node.js`和`socket.io`创建的网络聊天室",
       "使用`mysql`存储聊天信息，随时上下线的概念"
+    ]
+  },{
+    "type":"project",
+    "techtype": "frontend",
+    "name": "Lara Run",
+    "description":[
+      "使用Phaser框架进行h5游戏的开发",
+      "模型由自己手动绘制，游戏性受到认可"
     ]
   },{
   	"type":"project",
@@ -156,11 +153,11 @@
     }, {
       "summary": "前端工程实践",
       "description": [
-        "使用 'Angular.js'构建SAP，了解'React.js'，了解MVC和虚拟DOM机制",
+        "了解`React.js`，了解虚拟DOM和differ机制，了解｀Vue.js｀等其他框架",
         "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展, 阅读过部分源代码",
         "了解`Sea.js` / `RequireJS` / `Browserify` / `Bower` / `WebPack` 等多种模块化解决方案",
-        "了解 `Less` / `Sass` / `PostCSS` / `CoffeeScript` / `TypeScript` 等预处理/后处理工具",
-        "掌握基本的前端兼容性处理、性能优化知识与技巧"
+        "了解 `Less` / `Sass` / `PostCSS`  等预处理/后处理工具",
+        "掌握基本的前端兼容性处理、了解浏览器缓存机制、性能优化知识与技巧"
       ]
     }]
   }, {
