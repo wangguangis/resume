@@ -60,9 +60,9 @@
       "score": "452"
     }],
     "description": [
-      "能流畅阅读英文专业书籍、文档及其他资料",
-      "观看Cousera教程、开发者大会等基本不需要字幕",
-      "喜欢在StackOverFlow、LeetCode等社区用英语交流"
+      "能阅读英文专业书籍、文档及其他资料",
+      "观看Cousera教程、开发者大会",
+      "浏览StackOverFlow、LeetCode、Codepen等社区"
     ]
   }],
   "experience": [{
@@ -70,12 +70,12 @@
     "techtype": "frontend",
     "place": "上海银联",
     "start": "2016.08",
-    "end": "未完待续",
-    "name": "钱包团队前端工程师",
+    "end": "至今",
+    "name": "前端实习",
     "description": [
       "使用`React.js`完成银联钱包的`SPA`，完成与客户端相同的功能实现",
-      "使用`React Route`实现hash route",
-      "重构[秒杀]活动页面，由`Sea.js`转为`React.js`"
+      "使用`React Route`实现hash route，配合jquery活用React的组件渲染",
+      "重构[秒杀]活动页面，用npm模块化开发"
     ],
     "stack": ["React.js", "Redux","Gulp", "Webpack", "node.js", "Babel"],
     "compatibility": "IE8+"
@@ -87,8 +87,7 @@
     "end": "2016.02",
     "name": "前端实习",
     "description": [
-      "帮助切图、javascript等工作",
-      "用`ActionScript`在页面上添加Flash脚本",
+      "帮助前端页面设计",
       "学习`Linux`系统的命令操作，熟悉代码部署"
     ],
     "stack": ["jqueryui", "bootstrap", "jquery", "jquery-mobile", "actionscript"],
@@ -99,25 +98,27 @@
     "name": "94一站（技能售卖平台）",
     "description": [
       "使用`React`, `Gulp`, `Babel`, `Browserify`, `Less`技术栈",
-      "类似淘宝闲鱼的售卖平台，需要推荐组件，购买页面组件，用户中心组件等构建"
+      "尝试使用网上多种React组件UI框架，尝试自建组件",
+      "使用ES6语法，使用EsLint进行代码规范"
     ],
     "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
     "compatibility": "IE8+"
   },{
     "type":"project",
     "techtype": "frontend",
-    "name": "约否活动信息发布平台",
+    "name": "约否（活动信息发布平台）",
     "description":[
-      "使用`Angular.js`构建的前端页面，后台使用`Python Flask`进行数据库`ORM`操作",
-      "使用`node.js`和`socket.io`创建的网络聊天室"
+      "尝试使用`Material Design`构建的前端页面，后台使用`Python Flask`进行数据库`ORM`操作",
+      "使用`node.js`和`socket.io`创建了网络聊天室，利用了node的异步多并发特性"
     ]
   },{
     "type":"project",
     "techtype": "frontend",
-    "name": "Lara Run",
+    "name": "Lara Run（H5跑酷游戏）",
     "description":[
       "使用Phaser框架进行h5游戏的开发",
-      "模型由自己手动绘制，游戏性受到认可"
+      "阅读源码，理解对Canvas的操作",
+      "使用SVG路径动画配合FullPage.js制作着陆页面"
     ]
   },{
   	"type":"project",
@@ -135,14 +136,15 @@
     "item": [{
       "summary": "`HTML` / `CSS`",
       "description": [
-        "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局与动画",
-        "熟悉已标准化的 `HTML5` / `CSS3` 新特性，实验项目中能尝试使用未广泛实现的新标准"
+        "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局与CSS3动画",
+        "熟悉已标准化的 `HTML5` / `CSS3` 新特性，做到响应式布局和各主流浏览器适配"
       ]
     }, {
       "summary": "`ECMAScript`（`JavaScript`）",
       "description": [
-        "熟悉 `ECMAScript`（`JavaScript`）",
-        "了解 `ES6` 新标准与相关后处理工具并能在项目中使用"
+        "熟悉 `ECMAScript`（`JavaScript`）,理解js的原型链、闭包等概念",
+        "了解 `ES6` 新标准与相关后处理工具并能在项目中使用新特性",
+        "了解github上各类前端插件，并尝试使用reveal.js、motto.js等插件用于博客和日常生活上"
       ]
     }, {
       "summary": "`DOM` / `BOM` 及常见 `Web API`",
@@ -153,11 +155,11 @@
     }, {
       "summary": "前端工程实践",
       "description": [
-        "了解`React.js`，了解虚拟DOM和differ机制，了解｀Vue.js｀等其他框架",
-        "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展, 阅读过部分源代码",
-        "了解`Sea.js` / `RequireJS` / `Browserify` / `Bower` / `WebPack` 等多种模块化解决方案",
+        "了解`React.js`，了解虚拟DOM和differ机制，了解｀Vue.js｀,`Angular.js`等其他框架",
+        "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展",
+        "了解`Sea.js` / `RequireJS` / `Browserify` / `WebPack` 等多种模块化解决方案",
         "了解 `Less` / `Sass` / `PostCSS`  等预处理/后处理工具",
-        "掌握基本的前端兼容性处理、了解浏览器缓存机制、性能优化知识与技巧"
+        "掌握`Chrome`开发者工具和`Webstorm`配合进行调试"
       ]
     }]
   }, {
@@ -165,35 +167,37 @@
     "item": [{
       "summary": "`Node.js`",
       "description": [
-        "能够使用`Express` 搭建简单的后端程序与数据库交互、渲染模板及提供 `RESTful API`",
+        "能够使用`Express` 搭建简单的后端程序，熟练使用`npm`包管理器",
         "了解异步 I/O 及事件驱动的服务器模型，掌握常见的**异步编程**解决方案"
       ]
     }, {
-      "summary": "Python",
+      "summary": "`Python`",
       "description": [
-        "使用 `Django`（`Python`） 搭建过简单的web应用",
-        "了解Python3的await机制、对网络请求的异步处理",
+        "搭建过简单的web应用，用Python理解网络后台、Socket编程",
+        "使用Python配合Mininet实现SDN(Software Defined Neword)防火墙、流量控制，深入理解计算机网络",
         "使用Python在Leetcode上进行算法编程练习"
       ]
     }, {
-    	"summary": "Java",
+    	"summary": "`Java`",
     	"description":[
-    		"使用`Openxava`作为后台开发MIS",
-    		"使用`Vaadin`制作用户登录页面"
+    		"`JSP`开发经验，实现`DAO层`，实现`Servlet`和前端`Ajax`交互",
+        "熟练使用Eclipse，了解openxava, Vaadin等框架",
+        "使用`weka`提供的API进行数据挖掘"
     	]
     }, {
-      "summary": "System",
+      "summary": "`System`",
       "description": [
         "利用国内云计算平台搭建自己的博客服务器，并使用Centos/Ubuntu多种Linux系统",
-        "使用mac终端和windows powershell经验",
+        "多年使用mac终端和windows powershell经验",
         "维护Minecraft服务器"
       ]
     }]
   }, {
     "type": "miscellaneous",
     "item": [
-      "使用XAML在VS2015开发`UWP`APP程序",
-      "能够使用 `Markdown` 编写得体的中英文文档或论文，具备良好的技术交流能力"
+      "使用git进行代码管理，用Github进行代码托管",
+      "使用Sketch进行前端界面设计",
+      "能够使用 `Markdown` 编写博客，具备良好的技术交流能力"
     ]
   }]
 }
