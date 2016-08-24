@@ -75,7 +75,7 @@
     "description": [
       "使用`React.js`完成银联钱包的`SPA`，完成与客户端相同的功能实现",
       "使用`React Route`实现hash route，配合jquery活用React的组件渲染",
-      "重构[秒杀]活动页面，用npm模块化开发"
+      "构建优惠列表页面，配合后端提供的接口实现前后端分离的RestFul API开发"
     ],
     "stack": ["React.js", "Redux","Gulp", "Webpack", "node.js", "Babel"],
     "compatibility": "IE8+"
@@ -87,8 +87,8 @@
     "end": "2016.02",
     "name": "前端实习",
     "description": [
-      "帮助前端页面设计",
-      "学习`Linux`系统的命令操作，熟悉代码部署"
+      "负责网页构建，熟悉DOM API，熟悉与后台PHP的配合，帮助前端进行页面设计",
+      "学习服务器的部署，学习nginx作为服务器，学习Linux命令"
     ],
     "stack": ["jqueryui", "bootstrap", "jquery", "jquery-mobile", "actionscript"],
     "compatibility": "IE8+"
@@ -116,9 +116,9 @@
     "techtype": "frontend",
     "name": "Lara Run（H5跑酷游戏）",
     "description":[
-      "使用Phaser框架进行h5游戏的开发",
-      "阅读源码，理解对Canvas的操作",
-      "使用SVG路径动画配合FullPage.js制作着陆页面"
+        "使用Phaser框架进行h5游戏的开发",
+        "阅读源码，理解对Canvas的操作",
+        "使用SVG路径动画配合FullPage.js制作着陆页面"
     ]
   },{
   	"type":"project",
