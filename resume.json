@@ -73,8 +73,8 @@
     "end": "至今",
     "name": "前端实习",
     "description": [
-      "使用`React.js`完成银联钱包的`SPA`，完成与客户端相同的功能实现",
-      "使用`React Route`实现hash route，配合jquery活用React的组件渲染",
+      "使用`React.js`配合iOS/Android进行Hybrid app开发",
+      "Web端CSRF漏洞处理，进行token改造",
       "构建优惠列表页面，配合后端提供的接口实现前后端分离的RestFul API开发"
     ],
     "stack": ["React.js", "Redux","Gulp", "Webpack", "node.js", "Babel"],
@@ -87,8 +87,8 @@
     "end": "2016.02",
     "name": "前端实习",
     "description": [
-      "负责网页构建，熟悉DOM API，熟悉与后台PHP的配合，帮助前端进行页面设计",
-      "学习服务器的部署，学习nginx作为服务器，学习Linux命令"
+      "负责网页构建，熟悉DOM API，帮助前端进行页面设计",
+      "学习服务器的部署，学习nginx，学习Linux命令"
     ],
     "stack": ["jqueryui", "bootstrap", "jquery", "jquery-mobile", "actionscript"],
     "compatibility": "IE8+"
@@ -103,14 +103,6 @@
     ],
     "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
     "compatibility": "IE8+"
-  },{
-    "type":"project",
-    "techtype": "frontend",
-    "name": "约否（活动信息发布平台）",
-    "description":[
-      "尝试使用`Material Design`构建的前端页面，后台使用`Python Flask`进行数据库`ORM`操作",
-      "使用`node.js`和`socket.io`创建了网络聊天室，利用了node的异步多并发特性"
-    ]
   },{
     "type":"project",
     "techtype": "frontend",
@@ -173,7 +165,7 @@
     }, {
       "summary": "`Python`",
       "description": [
-        "搭建过简单的web应用，用Python理解网络后台、Socket编程",
+        "搭建过简单的web应用，用Python的Flask框架构建ORM，理解网络后台、Socket编程",
         "使用Python配合Mininet实现SDN(Software Defined Neword)防火墙、流量控制，深入理解计算机网络",
         "使用Python在Leetcode上进行算法编程练习"
       ]
