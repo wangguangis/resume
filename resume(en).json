@@ -1,0 +1,195 @@
+
+{
+  "data_lang": "zh-CN",
+  "ga_id": "UA-63818301-2",
+  "resume_title": "Liu Yitao - Resume",
+  "name": "Liu Yitao",
+  "repo": "https://github.com/leoeatle/resume.git",
+  "job_description": ["前端工程师"],
+  "contact": {
+    "email": "liuyitao811@hotmail.com",
+    "wechat": {
+      "id": "LeoEatle",
+      "qrcode": "static/wechat.png"
+    },
+    "sinaweibo": {
+      "id": "怡涛－在妖都在暨大",
+      "url": "http://weibo.com/liuyitao811/"
+    },
+    "github": {
+      "id": "LeoEatle"
+    },
+    "blog": {
+      "url": "http://istillhaveboobs.com"
+    }
+  },
+  "links": [{
+    "type": "repo",
+    "url": "https://github.com/LeoEatle/resume"
+
+  }, {
+    "type": "pdf",
+    "url": "static/leoeatle.pdf"
+
+  }, {
+    "type": "zhihu",
+    "url": "https://www.zhihu.com/people/leoeatle"
+  }, {
+    "type": "doubanbook",
+    "url": "https://www.douban.com/people/58703417/"
+  }],
+   "education": [{
+    "type": "undergraduate",
+    "name": "Jinan University",
+    "major": "Computer Science",
+    "start": "2013",
+    "end": "2017",
+    "honor": [
+      "Star of JNU"
+    ]
+  }],
+  "language": [{
+    "type": "english",
+    "certificate": [{
+      "type": "CET-4",
+      "full": "710",
+      "score": "550"
+    }, {
+      "type": "CET-6",
+      "full": "710",
+      "score": "452"
+    }],
+    "description": [
+      "Read professional books in English",
+      "Watch Cousera or other courses in English",
+      "Visit StackOverFlow、LeetCode、Codepen"
+    ]
+  }],
+  "experience": [{
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "Shanghai UnionPay",
+    "start": "2016.06",
+    "end": "2016.09",
+    "name": "Fron-end Engineer",
+    "description": [
+      "use `React.js` in Cordeva in iOS/Android to develop Hybrid app",
+      "Solve CSRF problems in the previous web pages using token in cookies",
+      "Building the page of list of Sales. Develop RESTful API with the interface from Front-end"
+    ],
+    "stack": ["React.js", "Redux","Gulp", "Webpack", "node.js", "Babel"],
+    "compatibility": "IE8+"
+  },{
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "LanHai Internet",
+    "start": "2016.01",
+    "end": "2016.02",
+    "name": "Front-end Intern",
+    "description": [
+      "Using DOM API to build web pages and design the page style",
+      "Learn to config the server and Nginx"
+    ],
+    "stack": ["jqueryui", "bootstrap", "jquery", "jquery-mobile", "actionscript"],
+    "compatibility": "IE8+"
+  },{
+    "type": "project",
+    "techtype": "frontend",
+    "name": "94 OneSite",
+    "description": [
+      "Use `React`, `Gulp`, `Babel`, `Browserify`, `Less` technology Stack",
+      "Try to use the React component from the Github. And try to build my own UI component",
+      "Use ES6 grammar and use ESlint as the coding standard"
+    ],
+    "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
+    "compatibility": "IE8+"
+  },{
+    "type":"project",
+    "techtype": "frontend",
+    "name": "Lara Run（H5跑酷游戏）",
+    "description":[
+        "Use Phaser Framework to develop html5 game",
+        "Read the source code of Phaser and understand the operation with Canvas",
+        "Use SVG to make the animation with route of SVG. Use fullpage.js to build landing page"
+    ]
+  },{
+  	"type":"project",
+  	"techtype": "Python",
+  	"name": "搜狐军事网站爬虫",
+  	"description":[
+  		"Use the library of python to build a crawer to get the news on the website",
+  		"Analyse the frequncy of the every word in the news and produce a `one sentence news`",
+      "Use `weka` to analyze the statistics data for data mining"
+  	]
+  	}
+  ],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "`HTML` / `CSS`",
+      "description": [
+        "Program semantic `HTML`, module `CSS` to produce a complicated layout and CSS3 animation",
+        "Be familar of the new features of standard `HTML5`/`CSS3`. Building Responsive Layout and compatible with popular browsers"
+      ]
+    }, {
+      "summary": "`ECMAScript`（`JavaScript`）",
+      "description": [
+        "Be familar with `ECMAScript` and understand principle such as prototype chain, closure ",
+        "Understand the new standard of `ES6` and use `Babel` to compile ES6 in project",
+        "Learn about the various javascipt plugins in the Github and try to use reveal.js, motto.js in my blog and personal website"
+      ]
+    }, {
+      "summary": "`DOM` / `BOM` 及常见 `Web API`",
+      "description": [
+        "Understand the origin `DOM`. Experienced in mobile developing",
+        "Understand the building of DOM tree. Learn about the Cache Control of browsers."
+      ]
+    }, {
+      "summary": "Front End Engineering",
+      "description": [
+        "`React.js`，｀Vue.js｀,`Angular.js`and other frameworks",
+        "`jQuery` / `jQuery UI` / `Bootstrap`",
+        "`Sea.js` / `RequireJS` / `Browserify` / `WebPack` and other function to solve javascript module problem",
+        "`Less` / `Sass` / `PostCSS`  pre-proccess/post-process tools",
+        "Use Chrome Develop Tools and `Webstorm` to debug"
+      ]
+    }]
+  }, {
+    "type": "backend",
+    "item": [{
+      "summary": "`Node.js`",
+      "description": [
+        "Use `Express` to build simple back-end program. Using `npm` as the package manager",
+        "Learn the asynchronous I/O and event driving server module. Understand popular solution of asynchronous programming"
+      ]
+    }, {
+      "summary": "`Python`",
+      "description": [
+        "Building web application with Flask frameworks. Understand Socket programming",
+        "Use Python to build SDN with Mininet. Understand Firewall, flow control.",
+        "Practice algorithm with Python on the Leetcode"
+      ]
+    }, {
+    	"summary": "`Java`",
+    	"description":[
+    		"Developing experience with JSP. Develop `DAO Layer`, `Servlet` and communicate with front-end with AJAX ",
+        "Be familar with Eclipse. Know about openxava, Vaadin",
+        "Using API provided by Weka to do data mining"
+    	]
+    }, {
+      "summary": "`System`",
+      "description": [
+        "Using Cloud Server to build my own server and use Linux like Centos/Ubuntu",
+        "Like both powershell on windows and bash on Mac OS",
+        "Minecraft Server Owner"
+      ]
+    }]
+  }, {
+    "type": "miscellaneous",
+    "item": [
+      "Use git to manage code. Use Github to store my code.",
+      "使用Sketch进行前端界面设计Design with Sketch/Photoshop",
+      "Use `Markdown` to write blog and communicate with others about technology"
+    ]
+  }]
+}

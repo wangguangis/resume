@@ -5,7 +5,7 @@
   "resume_title": "刘怡涛 - 个人简历",
   "name": "刘怡涛",
   "repo": "https://github.com/leoeatle/resume.git",
-  "job_description": ["Web Developing Engineer"],
+  "job_description": ["前端工程师"],
   "contact": {
     "email": "liuyitao811@hotmail.com",
     "wechat": {
@@ -45,8 +45,7 @@
     "start": "2013",
     "end": "2017",
     "honor": [
-      "参加两届爱范儿&SegmentFault举办的`黑客马拉松` 24小时开发微信小程序并获奖",
-      "参加天池大数据竞赛"
+      "暨南大学 创意之星"
     ]
   }],
   "language": [{
@@ -58,56 +57,72 @@
     }, {
       "type": "CET-6",
       "full": "710",
-      "score": "482"
+      "score": "452"
     }],
     "description": [
-      "国际学院**全英教学**，使用英文经典计算机教材",
-      "浏览StackOverFlow、LeetCode、Codepen等社区，能查阅英文文档"
+      "能阅读英文专业书籍、文档及其他资料",
+      "观看Cousera教程、开发者大会",
+      "浏览StackOverFlow、LeetCode、Codepen等社区"
     ]
   }],
   "experience": [{
     "type": "internship",
     "techtype": "frontend",
     "place": "上海银联",
-    "start": "2016.06",
-    "end": "2016.10",
-    "name": "'银联钱包'开发工程师",
+    "start": "2016.08",
+    "end": "至今",
+    "name": "前端实习",
     "description": [
-      "基于`Cordova`使用`React.js`配合iOS/Android进行Hybrid app开发，使用webpack作为打包方案",
-      "前后端分离，配合后端提供的接口实现RestFul API开发",
-      "Web端CSRF漏洞处理，进行token改造"
+      "使用`React.js`配合iOS/Android进行Hybrid app开发",
+      "Web端CSRF漏洞处理，进行token改造",
+      "构建优惠列表页面，配合后端提供的接口实现前后端分离的RestFul API开发"
     ],
     "stack": ["React.js", "Redux","Gulp", "Webpack", "node.js", "Babel"],
     "compatibility": "IE8+"
   },{
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "蓝海网络公司",
+    "start": "2016.01",
+    "end": "2016.02",
+    "name": "前端实习",
+    "description": [
+      "负责网页构建，熟悉DOM API，帮助前端进行页面设计",
+      "学习服务器的部署，学习nginx，学习Linux命令"
+    ],
+    "stack": ["jqueryui", "bootstrap", "jquery", "jquery-mobile", "actionscript"],
+    "compatibility": "IE8+"
+  },{
     "type": "project",
     "techtype": "frontend",
-    "name": "约否活动信息平台",
+    "name": "94一站（技能售卖平台）",
     "description": [
-      "本人的创业项目，使用`React.js/Gulp/Babel/Browserfy`技术栈",
-      "实现前端js代码模块化、工程化，使用`ES6语法`",
-      "后台使用`python Flask`框架，使用ORM，部署于腾讯云上，熟悉`Ubuntu`系统和`Nginx`"
+      "使用`React`, `Gulp`, `Babel`, `Browserify`, `Less`技术栈",
+      "尝试使用网上多种React组件UI框架，尝试自建组件",
+      "使用ES6语法，使用EsLint进行代码规范"
     ],
     "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
     "compatibility": "IE8+"
+  },{
+    "type":"project",
+    "techtype": "frontend",
+    "name": "Lara Run（H5跑酷游戏）",
+    "description":[
+        "使用Phaser框架进行h5游戏的开发",
+        "阅读源码，理解对Canvas的操作",
+        "使用SVG路径动画配合FullPage.js制作着陆页面"
+    ]
   },{
   	"type":"project",
   	"techtype": "Python",
   	"name": "搜狐军事网站爬虫",
   	"description":[
-  		"使用python的`Beautifulsoup`制作的爬虫，解析新闻文件，同时分词、存储数据",
+  		"使用python的`Beautifulsoup`制作的爬虫，解析新闻文件",
+  		"分析每条新闻中的词语出现`频率`并统计排行,为每条新闻自动生成`一句话新闻`",
       "使用`weka`分析统计数据，进行Data Mining"
   	]
-  },{
-    "type":"project",
-    "techtype": "frontend",
-    "name": "生物信息库xml分析",
-    "description":[
-        "使用Java的`dom4j`库对大量的生物反应数据库xml文件进行解析",
-        "使用`MySQL`存储xml信息，用jdbc技术与数据库连接",
-        "编写`JSP`页面，用`Angular.js`框架的MVC架构呈现信息，实现单页面应用程序"
-    ]
-  }],
+  	}
+  ],
   "skills": [{
     "type": "frontend",
     "item": [{
@@ -120,7 +135,9 @@
       "summary": "`ECMAScript`（`JavaScript`）",
       "description": [
         "熟悉 `ECMAScript`（`JavaScript`）,理解js的原型链、闭包等概念",
-        "了解 `ES6` 新标准与相关后处理工具并能在项目中使用新特性，阅读js开源代码"      ]
+        "了解 `ES6` 新标准与相关后处理工具并能在项目中使用新特性",
+        "了解github上各类前端插件，并尝试使用reveal.js、motto.js等插件用于博客和日常生活上"
+      ]
     }, {
       "summary": "`DOM` / `BOM` 及常见 `Web API`",
       "description": [
@@ -130,9 +147,12 @@
     }, {
       "summary": "前端工程实践",
       "description": [
-        "了解`React.js`，了解虚拟DOM和differ机制，了解`Vue.js`,`Angular.js`等其他框架",
+        "了解`React.js`，了解虚拟DOM和differ机制，了解｀Vue.js｀,`Angular.js`等其他框架",
         "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展",
-        "了解`Browserify` / `WebPack` 等多种模块化解决方案"      ]
+        "了解`Sea.js` / `RequireJS` / `Browserify` / `WebPack` 等多种模块化解决方案",
+        "了解 `Less` / `Sass` / `PostCSS`  等预处理/后处理工具",
+        "掌握`Chrome`开发者工具和`Webstorm`配合进行调试"
+      ]
     }]
   }, {
     "type": "backend",
@@ -145,20 +165,22 @@
     }, {
       "summary": "`Python`",
       "description": [
-        "使用Python配合Mininet实现SDN",
+        "搭建过简单的web应用，用Python的Flask框架构建ORM，理解网络后台、Socket编程",
+        "使用Python配合Mininet实现SDN(Software Defined Neword)防火墙、流量控制，深入理解计算机网络",
         "使用Python在Leetcode上进行算法编程练习"
       ]
     }, {
     	"summary": "`Java`",
     	"description":[
     		"`JSP`开发经验，实现`DAO层`，实现`Servlet`和前端`Ajax`交互",
-        "熟练使用Eclipse，了解openxava, Vaadin等框架"
+        "熟练使用Eclipse，了解openxava, Vaadin等框架",
+        "使用`weka`提供的API进行数据挖掘"
     	]
     }, {
       "summary": "`System`",
       "description": [
         "利用国内云计算平台搭建自己的博客服务器，并使用Centos/Ubuntu多种Linux系统",
-        "多年使用`mac终端经验`，熟悉命令行操作",
+        "多年使用mac终端和windows powershell经验",
         "维护Minecraft服务器"
       ]
     }]
