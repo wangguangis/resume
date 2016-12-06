@@ -2,8 +2,8 @@
 {
   "data_lang": "zh-CN",
   "ga_id": "UA-63818301-2",
-  "resume_title": "Liu Yitao - Resume",
-  "name": "Liu Yitao",
+  "resume_title": "Yitao Liu - Resume",
+  "name": "Yitao Liu",
   "repo": "https://github.com/leoeatle/resume.git",
   "job_description": ["前端工程师"],
   "contact": {
@@ -45,7 +45,7 @@
     "start": "2013",
     "end": "2017",
     "honor": [
-      "Star of JNU"
+      "SegmentFault Hackthon - The most popular application honor"
     ]
   }],
   "language": [{
@@ -62,7 +62,7 @@
     "description": [
       "Read professional books in English",
       "Watch Cousera or other courses in English",
-      "Visit StackOverFlow、LeetCode、Codepen"
+      "Visit StackOverFlow、LeetCode、Codepen websites"
     ]
   }],
   "experience": [{

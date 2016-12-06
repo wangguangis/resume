@@ -62,10 +62,23 @@
     }],
     "description": [
       "国际学院**全英教学**，使用英文经典计算机教材",
-      "浏览StackOverFlow、LeetCode、Codepen等社区，能查阅英文文档"
+      "浏览StackOverFlow、LeetCode、Codepen等社区，能查阅英文文档",
+      "有两个博客，技术博客和生活博客"
     ]
   }],
   "experience": [{
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "SegmentFault",
+    "start": "2016.10",
+    "end": "2016.12",
+    "name": "前端工程师",
+    "description": [
+      "开发用户浏览记录模块",
+      "改造了一个coffee script写的组件，用于标签输入的检查、拉取列表、更新",
+      "改进twig模版"
+    ]
+  },{
     "type": "internship",
     "techtype": "frontend",
     "place": "上海银联",
@@ -73,7 +86,7 @@
     "end": "2016.10",
     "name": "'银联钱包'开发工程师",
     "description": [
-      "基于`Cordova`使用`React.js`配合iOS/Android进行Hybrid app开发，使用webpack作为打包方案",
+      "使用`React.js`配合iOS/Android进行Hybrid app开发，使用webpack作为打包方案",
       "前后端分离，配合后端提供的接口实现RestFul API开发",
       "Web端CSRF漏洞处理，进行token改造"
     ],
@@ -85,26 +98,16 @@
     "name": "约否活动信息平台",
     "description": [
       "本人的创业项目，使用`React.js/Gulp/Babel/Browserfy`技术栈",
-      "实现前端js代码模块化、工程化，使用`ES6语法`",
       "后台使用`python Flask`框架，使用ORM，部署于腾讯云上，熟悉`Ubuntu`系统和`Nginx`"
     ],
     "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
     "compatibility": "IE8+"
-  },{
-  	"type":"project",
-  	"techtype": "Python",
-  	"name": "搜狐军事网站爬虫",
-  	"description":[
-  		"使用python的`Beautifulsoup`制作的爬虫，解析新闻文件，同时分词、存储数据",
-      "使用`weka`分析统计数据，进行Data Mining"
-  	]
   },{
     "type":"project",
     "techtype": "frontend",
     "name": "生物信息库xml分析",
     "description":[
         "使用Java的`dom4j`库对大量的生物反应数据库xml文件进行解析",
-        "使用`MySQL`存储xml信息，用jdbc技术与数据库连接",
         "编写`JSP`页面，用`Angular.js`框架的MVC架构呈现信息，实现单页面应用程序"
     ]
   }],
@@ -131,28 +134,24 @@
       "summary": "前端工程实践",
       "description": [
         "了解`React.js`，了解虚拟DOM和differ机制，了解`Vue.js`,`Angular.js`等其他框架",
-        "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展",
-        "了解`Browserify` / `WebPack` 等多种模块化解决方案"      ]
+        "熟悉 `jQuery` /  `Bootstrap` 的使用、定制与扩展",
+        "了解`Require.js` / `WebPack` 等多种模块化解决方案"      ]
     }]
   }, {
     "type": "backend",
-    "item": [{
-      "summary": "`Node.js`",
-      "description": [
-        "能够使用`Express` 搭建简单的后端程序，熟练使用`npm`包管理器",
-        "了解异步 I/O 及事件驱动的服务器模型，掌握常见的**异步编程**解决方案"
-      ]
-    }, {
+    "item": [
+      {
       "summary": "`Python`",
       "description": [
+        "做过爬取搜狐军事新闻的爬虫，做过爬取百度单词音频的爬虫，做过Django，做过一键上传七牛云脚本",
         "使用Python配合Mininet实现SDN",
         "使用Python在Leetcode上进行算法编程练习"
       ]
     }, {
     	"summary": "`Java`",
     	"description":[
-    		"`JSP`开发经验，实现`DAO层`，实现`Servlet`和前端`Ajax`交互",
-        "熟练使用Eclipse，了解openxava, Vaadin等框架"
+    		"`JSP`开发经验，实现`DAO层`",
+        "熟练使用IntelliJ，了解openxava, Vaadin等框架"
     	]
     }, {
       "summary": "`System`",
