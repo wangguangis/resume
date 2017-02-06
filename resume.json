@@ -2,41 +2,38 @@
 {
   "data_lang": "zh-CN",
   "ga_id": "UA-63818301-2",
-  "resume_title": "刘怡涛 - 个人简历",
-  "name": "刘怡涛",
-  "repo": "https://github.com/leoeatle/resume.git",
-  "job_description": ["Web Developing Engineer"],
+  "resume_title": "王冠 - 个人简历",
+  "name": "王冠",
+  "repo": "https://github.com/wangguangis/resume.git",
+  "job_description": ["软件工程师"],
   "contact": {
-    "email": "liuyitao811@hotmail.com",
+    "email": "wangguan_gis@hotmail.com",
     "wechat": {
-      "id": "LeoEatle",
+      "id": "王冠",
       "qrcode": "static/wechat.png"
     },
     "sinaweibo": {
-      "id": "怡涛－在妖都在暨大",
-      "url": "http://weibo.com/liuyitao811/"
+      "id": "狂躁程序猿",
+      "url": "http://weibo.com/u/1283153992"
     },
     "github": {
-      "id": "LeoEatle"
+      "id": "wangguangis"
     },
-    "blog": {
-      "url": "http://istillhaveboobs.com"
+    "phone": {
+      "text": "13944162539"
     }
   },
   "links": [{
     "type": "repo",
-    "url": "https://github.com/LeoEatle/resume"
+    "url": "https://github.com/wangguangis/resume"
 
   }, {
     "type": "pdf",
-    "url": "static/leoeatle.pdf"
+    "url": "static/wangguan.pdf"
 
   }, {
     "type": "zhihu",
-    "url": "https://www.zhihu.com/people/leoeatle"
-  }, {
-    "type": "doubanbook",
-    "url": "https://www.douban.com/people/58703417/"
+    "url": "https://www.zhihu.com/people/wang-guan-72-83"
   }],
    "education": [{
     "type": "undergraduate",
