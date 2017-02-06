@@ -10,17 +10,19 @@ block education
         dl.education-description.timeline-content
           dt.education-name= item.name
           dd.education-major= item.major + education_type[item.type]
-          each honor in item.honor
-            dd.education-honor!= highlight(honor)
+          if item.honor
+            each honor in item.honor
+              dd.education-honor!= highlight(honor)
 
 
 block language
-  +section("language", false)
-    each lang in language
-      +certificate(lang.certificate)
-      ul.language-description
-        each desc in lang.description
-          li.language-desc-item= desc
+  if language
+    +section("language", false)
+      each lang in language
+        +certificate(lang.certificate)
+        ul.language-description
+          each desc in lang.description
+            li.language-desc-item= desc
 
 
 block experience

@@ -7,20 +7,18 @@
   "repo": "https://github.com/wangguangis/resume.git",
   "job_description": ["软件工程师"],
   "contact": {
+    "phone": "13944162539",
     "email": "wangguan_gis@hotmail.com",
     "wechat": {
       "id": "王冠",
       "qrcode": "static/wechat.png"
     },
-    "sinaweibo": {
-      "id": "狂躁程序猿",
-      "url": "http://weibo.com/u/1283153992"
-    },
     "github": {
       "id": "wangguangis"
     },
-    "phone": {
-      "text": "13944162539"
+    "sinaweibo": {
+      "id": "狂躁程序猿",
+      "url": "http://weibo.com/u/1283153992"
     }
   },
   "links": [{
@@ -36,77 +34,77 @@
     "url": "https://www.zhihu.com/people/wang-guan-72-83"
   }],
    "education": [{
-    "type": "undergraduate",
-    "name": "暨南大学",
-    "major": "计算机科学技术（全英）",
-    "start": "2013",
-    "end": "2017",
-    "honor": [
-      "参加两届爱范儿&SegmentFault举办的`黑客马拉松` 24小时开发微信小程序并获奖",
-      "参加天池大数据竞赛"
-    ]
-  }],
-  "language": [{
-    "type": "english",
-    "certificate": [{
-      "type": "CET-4",
-      "full": "710",
-      "score": "550"
-    }, {
-      "type": "CET-6",
-      "full": "710",
-      "score": "482"
-    }],
-    "description": [
-      "国际学院**全英教学**，使用英文经典计算机教材",
-      "浏览StackOverFlow、LeetCode、Codepen等社区，能查阅英文文档",
-      "有两个博客，技术博客和生活博客"
-    ]
-  }],
+    "type": "postgraduate",
+    "name": "辽宁工程技术大学",
+    "major": "地图制图学与地理信息工程",
+    "start": "2007",
+    "end": "2010"
+  }, {
+     "type": "undergraduate",
+     "name": "吉林师范大学",
+     "major": "地理信息信息系统",
+     "start": "2003",
+     "end": "2007"
+   }],
   "experience": [{
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "SegmentFault",
-    "start": "2016.10",
-    "end": "2016.12",
-    "name": "前端工程师",
+    "type": "official",
+    "techtype": "backend",
+    "place": "北京山海础石信息技术有限公司",
+    "start": "2009.9",
+    "end": "2011.2",
+    "name": "启明星",
     "description": [
-      "开发用户浏览记录模块",
-      "改造了一个coffee script写的组件，用于标签输入的检查、拉取列表、更新",
-      "改进twig模版"
+      "描述一",
+      "描述二",
+      "描述三"
     ]
-  },{
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "上海银联",
-    "start": "2016.06",
-    "end": "2016.10",
-    "name": "'银联钱包'开发工程师",
-    "description": [
-      "使用`React.js`配合iOS/Android进行Hybrid app开发，使用webpack作为打包方案",
-      "前后端分离，配合后端提供的接口实现RestFul API开发",
-      "Web端CSRF漏洞处理，进行token改造"
-    ],
-    "stack": ["React.js", "Redux","Gulp", "Webpack", "node.js", "Babel"],
-    "compatibility": "IE8+"
-  },{
+  }, {
     "type": "project",
-    "techtype": "frontend",
-    "name": "约否活动信息平台",
+    "techtype": "backend",
+    "name": "POI信息补充系统",
     "description": [
-      "本人的创业项目，使用`React.js/Gulp/Babel/Browserfy`技术栈",
-      "后台使用`python Flask`框架，使用ORM，部署于腾讯云上，熟悉`Ubuntu`系统和`Nginx`"
+      "描述一",
+      "描述二",
+      "描述三"
     ],
     "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
     "compatibility": "IE8+"
-  },{
-    "type":"project",
+  }, {
+    "type": "official",
     "techtype": "frontend",
-    "name": "生物信息库xml分析",
-    "description":[
-        "使用Java的`dom4j`库对大量的生物反应数据库xml文件进行解析",
-        "编写`JSP`页面，用`Angular.js`框架的MVC架构呈现信息，实现单页面应用程序"
-    ]
+    "place": "启明信息技术股份有限公司",
+    "start": "2011.04",
+    "end": "现在",
+    "name": "平台",
+    "description": [
+      "描述一",
+      "描述二",
+      "描述三"
+    ],
+    "stack": ["React.js", "Redux","Gulp", "Webpack", "node.js", "Babel"],
+    "compatibility": "IE8+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "name": "新能源车",
+    "description": [
+      "描述一",
+      "描述二",
+      "描述三"
+    ],
+    "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
+    "compatibility": "IE8+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "name": "平台",
+    "description": [
+      "描述一",
+      "描述二",
+      "描述三"
+    ],
+    "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
+    "compatibility": "IE8+"
   }],
   "skills": [{
     "type": "frontend",
@@ -138,7 +136,7 @@
     "type": "backend",
     "item": [
       {
-      "summary": "`Python`",
+      "summary": "`C#`",
       "description": [
         "做过爬取搜狐军事新闻的爬虫，做过爬取百度单词音频的爬虫，做过Django，做过一键上传七牛云脚本",
         "使用Python配合Mininet实现SDN",
@@ -151,13 +149,21 @@
         "熟练使用IntelliJ，了解openxava, Vaadin等框架"
     	]
     }, {
-      "summary": "`System`",
+      "summary": "`Hadoop`",
       "description": [
-        "利用国内云计算平台搭建自己的博客服务器，并使用Centos/Ubuntu多种Linux系统",
-        "多年使用`mac终端经验`，熟悉命令行操作",
-        "维护Minecraft服务器"
+        "学习中..."
       ]
-    }]
+    }, {
+        "summary": "`Scala`",
+        "description": [
+          "学习中..."
+        ]
+    }, {
+        "summary": "`Nodejs`",
+        "description": [
+          "学习中..."
+        ]
+      }]
   }, {
     "type": "miscellaneous",
     "item": [
