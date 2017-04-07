@@ -55,33 +55,6 @@
   "experience": [
     {
       "type": "official",
-      "techtype": "backend",
-      "place": "北京山海础石信息技术有限公司",
-      "start": "2009.9",
-      "end": "2011.2",
-      "name": "启明星",
-      "description": [
-        "穷举道路信息类关键字，通过搜索引擎搜索关键字组合，抓取互联网发布的道路信息",
-        "使用分布式的分析引擎对采集数据进行过滤、分析、汇总",
-        "评估采集结果，为人工信息过滤提供支持"
-      ]
-    },
-    {
-      "type": "project",
-      "techtype": "backend",
-      "name": "POI信息补充系统",
-      "description": [
-        "基于互联网定向网站的信息抓取、分析、清洗、加工",
-        "用于补充基础POI及深度POI资源库"
-      ],
-      "stack": [
-        "python",
-        "SpringMVC"
-      ],
-      "compatibility": "IE8+"
-    },
-    {
-      "type": "official",
       "techtype": "frontend",
       "place": "启明信息技术股份有限公司",
       "start": "2011.04",
@@ -130,6 +103,33 @@
         "Hadoop"
       ],
       "compatibility": "IE8+"
+    },
+    {
+      "type": "official",
+      "techtype": "backend",
+      "place": "北京山海础石信息技术有限公司",
+      "start": "2009.9",
+      "end": "2011.2",
+      "name": "启明星",
+      "description": [
+        "穷举道路信息类关键字，通过搜索引擎搜索关键字组合，抓取互联网发布的道路信息",
+        "使用分布式的分析引擎对采集数据进行过滤、分析、汇总",
+        "评估采集结果，为人工信息过滤提供支持"
+      ]
+    },
+    {
+      "type": "project",
+      "techtype": "backend",
+      "name": "POI信息补充系统",
+      "description": [
+        "基于互联网定向网站的信息抓取、分析、清洗、加工",
+        "用于补充基础POI及深度POI资源库"
+      ],
+      "stack": [
+        "python",
+        "SpringMVC"
+      ],
+      "compatibility": "IE8+"
     }
   ],
   "skills": [
@@ -158,16 +158,10 @@
       "type": "backend",
       "item": [
         {
-          "summary": "`C#`",
-          "description": [
-            "道路运输车辆卫星定位系统——管理系统开发"
-          ]
-        },
-        {
           "summary": "`Java`",
           "description": [
             "熟悉Java反射、多线程、JDBC等技术的使用和原理",
-            "熟悉`Spirng`、`MyBatis`、`Quartz`等开源框架",
+            "熟悉`Spring`、`MyBatis`、`Quartz`等开源框架",
             "有kafka + spark + redis整合开发经验",
             "熟悉分布式系统的设计及应用，熟悉分布式、缓存、消息、负载均衡等机制和实现",
             "具有`JSP`开发经验",
@@ -187,6 +181,12 @@
           "description": [
             "熟悉`Oracle`、`Sql Sever`、`Mysql`，对SQL有性能优化的能力",
             "具有`NoSql`数据库开发经验"
+          ]
+        },
+        {
+          "summary": "`C#`",
+          "description": [
+            "道路运输车辆卫星定位系统——管理系统开发"
           ]
         }
       ]
