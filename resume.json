@@ -1,11 +1,12 @@
-
 {
   "data_lang": "zh-CN",
   "ga_id": "UA-63818301-2",
   "resume_title": "王冠 - 个人简历",
   "name": "王冠",
   "repo": "https://github.com/wangguangis/resume.git",
-  "job_description": ["软件工程师"],
+  "job_description": [
+    "软件工程师"
+  ],
   "contact": {
     "phone": "13944162539",
     "email": "wangguan_gis@hotmail.com",
@@ -21,155 +22,182 @@
       "url": "http://weibo.com/u/1283153992"
     }
   },
-  "links": [{
-    "type": "repo",
-    "url": "https://github.com/wangguangis/resume"
-
-  }, {
-    "type": "pdf",
-    "url": "static/wangguan.pdf"
-
-  }, {
-    "type": "zhihu",
-    "url": "https://www.zhihu.com/people/wang-guan-72-83"
-  }],
-   "education": [{
-    "type": "postgraduate",
-    "name": "辽宁工程技术大学",
-    "major": "地图制图学与地理信息工程",
-    "start": "2007",
-    "end": "2010"
-  }, {
-     "type": "undergraduate",
-     "name": "吉林师范大学",
-     "major": "地理信息信息系统",
-     "start": "2003",
-     "end": "2007"
-   }],
-  "experience": [{
-    "type": "official",
-    "techtype": "backend",
-    "place": "北京山海础石信息技术有限公司",
-    "start": "2009.9",
-    "end": "2011.2",
-    "name": "启明星",
-    "description": [
-      "描述一",
-      "描述二",
-      "描述三"
-    ]
-  }, {
-    "type": "project",
-    "techtype": "backend",
-    "name": "POI信息补充系统",
-    "description": [
-      "描述一",
-      "描述二",
-      "描述三"
-    ],
-    "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
-    "compatibility": "IE8+"
-  }, {
-    "type": "official",
-    "techtype": "frontend",
-    "place": "启明信息技术股份有限公司",
-    "start": "2011.04",
-    "end": "现在",
-    "name": "平台",
-    "description": [
-      "描述一",
-      "描述二",
-      "描述三"
-    ],
-    "stack": ["React.js", "Redux","Gulp", "Webpack", "node.js", "Babel"],
-    "compatibility": "IE8+"
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "name": "新能源车",
-    "description": [
-      "描述一",
-      "描述二",
-      "描述三"
-    ],
-    "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
-    "compatibility": "IE8+"
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "name": "平台",
-    "description": [
-      "描述一",
-      "描述二",
-      "描述三"
-    ],
-    "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
-    "compatibility": "IE8+"
-  }],
-  "skills": [{
-    "type": "frontend",
-    "item": [{
-      "summary": "`HTML` / `CSS`",
+  "links": [
+    {
+      "type": "repo",
+      "url": "https://github.com/wangguangis/resume"
+    },
+    {
+      "type": "pdf",
+      "url": "static/wangguan.pdf"
+    },
+    {
+      "type": "zhihu",
+      "url": "https://www.zhihu.com/people/wang-guan-72-83"
+    }
+  ],
+  "education": [
+    {
+      "type": "postgraduate",
+      "name": "辽宁工程技术大学",
+      "major": "地图制图学与地理信息工程",
+      "start": "2007",
+      "end": "2010"
+    },
+    {
+      "type": "undergraduate",
+      "name": "吉林师范大学",
+      "major": "地理信息信息系统",
+      "start": "2003",
+      "end": "2007"
+    }
+  ],
+  "experience": [
+    {
+      "type": "official",
+      "techtype": "backend",
+      "place": "北京山海础石信息技术有限公司",
+      "start": "2009.9",
+      "end": "2011.2",
+      "name": "启明星",
       "description": [
-        "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局与CSS3动画",
-        "熟悉已标准化的 `HTML5` / `CSS3` 新特性，做到响应式布局和各主流浏览器适配"
+        "穷举道路信息类关键字，通过搜索引擎搜索关键字组合，抓取互联网发布的道路信息",
+        "使用分布式的分析引擎对采集数据进行过滤、分析、汇总",
+        "评估采集结果，为人工信息过滤提供支持"
       ]
-    }, {
-      "summary": "`ECMAScript`（`JavaScript`）",
+    },
+    {
+      "type": "project",
+      "techtype": "backend",
+      "name": "POI信息补充系统",
       "description": [
-        "熟悉 `ECMAScript`（`JavaScript`）,理解js的原型链、闭包等概念",
-        "了解 `ES6` 新标准与相关后处理工具并能在项目中使用新特性，阅读js开源代码"      ]
-    }, {
-      "summary": "`DOM` / `BOM` 及常见 `Web API`",
+        "基于互联网定向网站的信息抓取、分析、清洗、加工",
+        "用于补充基础POI及深度POI资源库"
+      ],
+      "stack": [
+        "python",
+        "SpringMVC"
+      ],
+      "compatibility": "IE8+"
+    },
+    {
+      "type": "official",
+      "techtype": "frontend",
+      "place": "启明信息技术股份有限公司",
+      "start": "2011.04",
+      "end": "现在",
+      "name": "道路运输车辆卫星定位系统",
       "description": [
-        "熟悉原生 `DOM` ,有相关移动端/桌面端开发经验",
-        "了解浏览器DOM树的构建，了解浏览器缓存机制"
+        "交通部政府平台、企业平台标准认证",
+        "政府/企业监控管理平台开发"
+      ],
+      "stack": [
+        "C#",
+        "sql server"
+      ],
+      "compatibility": "IE8+"
+    },
+    {
+      "type": "project",
+      "techtype": "frontend",
+      "name": "新能源汽车监控平台",
+      "description": [
+        "新能源汽车监控管理平台开发",
+        "新能源汽车CAN总线协议解析",
+        "为APP提供restful服务，实现车辆远控，故障检测、预警"
+      ],
+      "stack": [
+        "SpringMVC",
+        "easyUI",
+        "kafka"
+      ],
+      "compatibility": "IE9+"
+    },
+    {
+      "type": "project",
+      "techtype": "frontend",
+      "name": "车联网大数据平台",
+      "description": [
+        "基于Hadoop生态系统构建车联网大数据平台，实现PB级数据存储与分析服务",
+        "支撑百万级车辆入网，支持多车型、多协议版本的消息接入，提供数据实时/离线分析，秒级数据延时",
+        "支持20000TPS消息并发处理，平台各组件及服务具有高可用性、高扩展性"
+      ],
+      "stack": [
+        "SpringMVC",
+        "HBase",
+        "kafka",
+        "Redis",
+        "Hadoop"
+      ],
+      "compatibility": "IE8+"
+    }
+  ],
+  "skills": [
+    {
+      "type": "frontend",
+      "item": [
+        {
+          "summary": "`HTML` / `CSS`",
+          "description": [
+            "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局",
+            "熟悉已标准化的 `HTML5` / `CSS3` 新特性，做到响应式布局和各主流浏览器适配",
+            "熟悉`EasyUI`、`bootstrap`等UI框架"
+          ]
+        },
+        {
+          "summary": "`ECMAScript`（`JavaScript`）",
+          "description": [
+            "熟悉 `ECMAScript`（`JavaScript`）,理解js的原型链、闭包等概念",
+            "了解 `ES6` 新标准与相关后处理工具并能在项目中使用新特性，阅读js开源代码",
+            "了解基于`AMD` / `CMD`规范的模块化开发"
+          ]
+        }
       ]
-    }, {
-      "summary": "前端工程实践",
-      "description": [
-        "了解`React.js`，了解虚拟DOM和differ机制，了解`Vue.js`,`Angular.js`等其他框架",
-        "熟悉 `jQuery` /  `Bootstrap` 的使用、定制与扩展",
-        "了解`Require.js` / `WebPack` 等多种模块化解决方案"      ]
-    }]
-  }, {
-    "type": "backend",
-    "item": [
-      {
-      "summary": "`C#`",
-      "description": [
-        "做过爬取搜狐军事新闻的爬虫，做过爬取百度单词音频的爬虫，做过Django，做过一键上传七牛云脚本",
-        "使用Python配合Mininet实现SDN",
-        "使用Python在Leetcode上进行算法编程练习"
+    },
+    {
+      "type": "backend",
+      "item": [
+        {
+          "summary": "`C#`",
+          "description": [
+            "道路运输车辆卫星定位系统——管理系统开发"
+          ]
+        },
+        {
+          "summary": "`Java`",
+          "description": [
+            "熟悉Java反射、多线程、JDBC等技术的使用和原理",
+            "熟悉`Spirng`、`MyBatis`、`Quartz`等开源框架",
+            "有kafka + spark + redis整合开发经验",
+            "熟悉分布式系统的设计及应用，熟悉分布式、缓存、消息、负载均衡等机制和实现",
+            "具有`JSP`开发经验",
+            "基于`maven`的项目构建"
+          ]
+        },
+        {
+          "summary": "`Hadoop`",
+          "description": [
+            "基于`HBase`原生api的Spring集成，开发及压力测试",
+            "`Spark Streaming`实时数据计算与分析",
+            "基于`Kafka`的消息总线"
+          ]
+        },
+        {
+          "summary": "数据库",
+          "description": [
+            "熟悉`Oracle`、`Sql Sever`、`Mysql`，对SQL有性能优化的能力",
+            "具有`NoSql`数据库开发经验"
+          ]
+        }
       ]
-    }, {
-    	"summary": "`Java`",
-    	"description":[
-    		"`JSP`开发经验，实现`DAO层`",
-        "熟练使用IntelliJ，了解openxava, Vaadin等框架"
-    	]
-    }, {
-      "summary": "`Hadoop`",
-      "description": [
-        "学习中..."
+    },
+    {
+      "type": "miscellaneous",
+      "item": [
+        "使用svn、git进行代码管理，用Github进行代码托管",
+        "熟悉`EA`、`powerDesigner`、`axure rp`等设计工具",
+        "熟悉idea、eclipse、webstorm等IDE"
       ]
-    }, {
-        "summary": "`Scala`",
-        "description": [
-          "学习中..."
-        ]
-    }, {
-        "summary": "`Nodejs`",
-        "description": [
-          "学习中..."
-        ]
-      }]
-  }, {
-    "type": "miscellaneous",
-    "item": [
-      "使用git进行代码管理，用Github进行代码托管",
-      "使用Sketch进行前端界面设计",
-      "能够使用 `Markdown` 编写博客，具备良好的技术交流能力"
-    ]
-  }]
+    }
+  ]
 }
