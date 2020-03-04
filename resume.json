@@ -5,7 +5,7 @@
   "name": "王冠",
   "repo": "https://github.com/wangguangis/resume.git",
   "job_description": [
-    "软件工程师"
+    "车联网架构师"
   ],
   "contact": {
     "phone": "13944162539",
@@ -13,27 +13,12 @@
     "wechat": {
       "id": "王冠",
       "qrcode": "static/wechat.png"
-    },
-    "github": {
-      "id": "wangguangis"
-    },
-    "sinaweibo": {
-      "id": "狂躁程序猿",
-      "url": "http://weibo.com/u/1283153992"
     }
   },
   "links": [
     {
-      "type": "repo",
-      "url": "https://github.com/wangguangis/resume"
-    },
-    {
       "type": "pdf",
       "url": "static/wangguan.pdf"
-    },
-    {
-      "type": "zhihu",
-      "url": "https://www.zhihu.com/people/wang-guan-72-83"
     }
   ],
   "education": [
@@ -55,24 +40,49 @@
   "experience": [
     {
       "type": "official",
-      "techtype": "frontend",
-      "place": "启明信息技术股份有限公司",
-      "start": "2011.04",
+      "techtype": "backend",
+      "place": "钛马信息网络技术有限公司",
+      "start": "2018.1",
       "end": "现在",
-      "name": "道路运输车辆卫星定位系统",
+      "name": "一汽-大众CDP微服务平台建设",
       "description": [
-        "交通部政府平台、企业平台标准认证",
-        "政府/企业监控管理平台开发"
+        "基于腾讯云TSF框架完成对原有微服务的云化改造，提高微服务的弹性伸缩能力及吞吐量",
+        "制定微服务建设流程及规范，建立DevOps体系",
+        "以Scrum方法论指导项目过程"
+      ]
+    },
+    {
+      "type": "project",
+      "techtype": "backend",
+      "name": "一汽集团车联网平台1.0",
+      "description": [
+        "基于spring开源生态体系建立的智能平台，收集、清洗、展示车辆全生命周期的数据，网联人、车、生活",
+        "车主端APP，为车主提供车况的快速诊断、远程控制，以及车辆生态服务"
       ],
       "stack": [
-        "C#",
-        "sql server"
+        "spring"
       ],
       "compatibility": "IE8+"
     },
     {
       "type": "project",
+      "techtype": "backend",
+      "name": "北汽新能源arcfox品牌app",
+      "description": [
+        "品牌车型、咨询展示，品牌活动推广，建立品牌社区、商城等",
+        "为车主提供车辆4G远程控制，蓝牙钥匙等功能"
+      ],
+      "stack": [
+        "spring"
+      ],
+      "compatibility": "IE8+"
+    },
+    {
+      "type": "official",
       "techtype": "frontend",
+      "place": "启明信息技术股份有限公司",
+      "start": "2011.04",
+      "end": "2017.12",
       "name": "新能源汽车监控平台",
       "description": [
         "新能源汽车监控管理平台开发",
@@ -92,8 +102,8 @@
       "name": "车联网大数据平台",
       "description": [
         "基于Hadoop生态系统构建车联网大数据平台，实现PB级数据存储与分析服务",
-        "支撑百万级车辆入网，支持多车型、多协议版本的消息接入，提供数据实时/离线分析，秒级数据延时",
-        "支持20000TPS消息并发处理，平台各组件及服务具有高可用性、高扩展性"
+        "支撑百万级车辆入网，支持多车型、多协议版本的消息接入，提供数据实时/离线分析，低数据延时",
+        "支持消息高并发处理，平台各组件及服务具有高可用性、高扩展性"
       ],
       "stack": [
         "SpringMVC",
@@ -103,90 +113,51 @@
         "Hadoop"
       ],
       "compatibility": "IE8+"
-    },
-    {
-      "type": "official",
-      "techtype": "backend",
-      "place": "北京山海础石信息技术有限公司",
-      "start": "2009.9",
-      "end": "2011.2",
-      "name": "启明星",
-      "description": [
-        "穷举道路信息类关键字，通过搜索引擎搜索关键字组合，抓取互联网发布的道路信息",
-        "使用分布式的分析引擎对采集数据进行过滤、分析、汇总",
-        "评估采集结果，为人工信息过滤提供支持"
-      ]
-    },
-    {
-      "type": "project",
-      "techtype": "backend",
-      "name": "POI信息补充系统",
-      "description": [
-        "基于互联网定向网站的信息抓取、分析、清洗、加工",
-        "用于补充基础POI及深度POI资源库"
-      ],
-      "stack": [
-        "python",
-        "SpringMVC"
-      ],
-      "compatibility": "IE8+"
     }
   ],
   "skills": [
     {
-      "type": "frontend",
-      "item": [
-        {
-          "summary": "`HTML` / `CSS`",
-          "description": [
-            "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局",
-            "熟悉已标准化的 `HTML5` / `CSS3` 新特性，做到响应式布局和各主流浏览器适配",
-            "熟悉`EasyUI`、`bootstrap`等UI框架"
-          ]
-        },
-        {
-          "summary": "`ECMAScript`（`JavaScript`）",
-          "description": [
-            "熟悉 `ECMAScript`（`JavaScript`）,理解js的原型链、闭包等概念",
-            "了解 `ES6` 新标准与相关后处理工具并能在项目中使用新特性，阅读js开源代码",
-            "了解基于`AMD` / `CMD`规范的模块化开发"
-          ]
-        }
-      ]
-    },
-    {
       "type": "backend",
       "item": [
         {
-          "summary": "`Java`",
+          "summary": "微服务",
           "description": [
+            "具有丰富的车联网行业、项目经验",
+            "熟悉车联网平台、运管平台的技术、业务架构，具备车联网平台的架构设计能力",
+            "具有`spring cloud` + `spring boot`构建微服务体系的实战经验",
+            "熟悉`服务治理`、`调用链跟踪`等相关技术及落地方案",
+            "熟悉`腾讯云TSF`框架，具备基于此框架搭建云原生微服务体系的能力",
+            "熟悉云平台的`容器化`部署，CI、CD",
             "熟悉Java反射、多线程、JDBC等技术的使用和原理",
-            "熟悉`Spring`、`MyBatis`、`Quartz`等开源框架",
-            "有kafka + spark + redis整合开发经验",
             "熟悉分布式系统的设计及应用，熟悉分布式、缓存、消息、负载均衡等机制和实现",
-            "具有`JSP`开发经验",
-            "基于`maven`的项目构建"
+            "熟悉`jpa`、`MyBatis`、`Quartz`等常用的开源框架",
+            "熟悉`git`、svn源代码管理工具"
           ]
         },
         {
-          "summary": "`Hadoop`",
+          "summary": "中间件",
           "description": [
-            "基于`HBase`原生api的Spring集成，开发及压力测试",
-            "`Spark Streaming`实时数据计算与分析",
-            "基于`Kafka`的消息总线"
+            "了解常用的消息队列中间件，使用`kafka`建立消息总线，实现服务解藕",
+            "基于canal监听数据变更，实现数据同步业务的解藕",
+            "熟练使用redis，了解其高可用模式",
+            "具有mysql、oracle、sql server关系型数据库的开发经验，了解mysql集群模式的搭建",
+            "有nosql数据库的开发经验，如mongodb、elastic search、HBase等"
           ]
         },
         {
-          "summary": "数据库",
+          "summary": "Hadoop",
           "description": [
-            "熟悉`Oracle`、`Sql Sever`、`Mysql`，对SQL有性能优化的能力",
-            "具有`NoSql`数据库开发经验"
+            "实践`HBase`原生api的Spring集成，开发及压力测试",
+            "`Spark Streaming`实时数据计算与分析"
           ]
         },
         {
-          "summary": "`C#`",
+          "summary": "DevOps",
           "description": [
-            "道路运输车辆卫星定位系统——管理系统开发"
+            "熟练使用项目构建工具`maven`",
+            "熟悉`gitlab`、`nexus repository`的搭建及使用",
+            "使用jenkins实现公有云环境的持续集成",
+            "了解基于ELK的日志管理平台搭建"
           ]
         }
       ]
@@ -194,9 +165,10 @@
     {
       "type": "miscellaneous",
       "item": [
-        "使用svn、git进行代码管理，用Github进行代码托管",
-        "熟悉`EA`、`powerDesigner`、`axure rp`等设计工具",
-        "熟悉idea、eclipse、webstorm等IDE"
+        "具有开发团队的组建及管理经验",
+        "具有Scrum项目实践经验",
+        "熟悉uml设计及相关工具，可基于uml进行需求分析、设计等工作",
+        "熟悉`enterprise architect`、`powerDesigner`、`axure rp`等设计工具"
       ]
     }
   ]
